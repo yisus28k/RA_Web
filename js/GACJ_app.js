@@ -1,9 +1,9 @@
 var url = window.location.href;
-var swLocation = '/twittor/MOAC_sw.js';
+var swLocation = '/twittor/GACJ_sw.js';
 
 if (navigator.serviceWorker) {
     if (url.includes('localhost')) {
-        swLocation = '/MOAC_sw.js';
+        swLocation = '/GACJ_sw.js';
     }
     navigator.serviceWorker.register(swLocation);
 }
